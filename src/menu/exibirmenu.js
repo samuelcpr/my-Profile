@@ -22,14 +22,19 @@ function criarMenu() {
   var menuContent = `
      <div class="container-menu">
      <div class="logo">
-     <img src="${image.src}" alt="Logo">
+     <img src="${image.src}" alt="Logo" id="logo-image">
      </div>
+     <style>
+    #item-menu:hover {
+     color: #89A299 !important;
+    }
+     </style>
         <ul class="Menu">
-            <li><a href="">Home</a></li>
-            <li><a href="">Projetos</a></li>
-            <li><a href="">Competencias</a></li>
-            <li><a href="">Minhas Especialidades</a></li>
-            <li><a href="#">Fale comigo</a></li>
+            <li><a href="http://127.0.0.1:5500/Home.html"id="item-menu" style="text-decoration: none; color:#85DBDE;">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/pages/projetos.html" id="item-menu" style="text-decoration: none; color:#85DBDE;">Projetos</a></li>
+            <li><a href="" id="item-menu" style="text-decoration: none;color:#85DBDE;">Competencias</a></li>
+            <li><a href="" id="item-menu" style="text-decoration: none; color:#85DBDE;">Minhas Especialidades</a></li>
+            <li><a href="#" id="item-menu" style="text-decoration: none; color:#85DBDE;">Fale comigo</a></li>
         </ul>
         <div class="button-orçamento" style="display: flex; align-items: center; justify-content: center;">
           <a href="#" id="button-orçamento">Solicite um orçamento</a>
