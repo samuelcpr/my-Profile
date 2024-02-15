@@ -1,0 +1,31 @@
+.Menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-menu {
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    12% 40% 60%
+  ); /* Cria 3 colunas com largura igual */
+  gap: 17%; /* Espaçamento entre as colunas */
+  background-color: #000000;
+}
+
+.logo img {
+  height: 150px;
+}
+
+.description {
+  width: 60%;
+}
+
+//botão menu
+
+.button-orçamento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
