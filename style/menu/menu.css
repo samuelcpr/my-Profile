@@ -8,18 +8,24 @@
   display: grid;
   grid-template-columns: repeat(
     3,
-    12% 40% 60%
+    10% 40% 15%
   ); /* Cria 3 colunas com largura igual */
   gap: 17%; /* Espaçamento entre as colunas */
   background-color: #000000;
+  margin: -4rem 0 -4rem 0 !important;
 }
 
-.logo img {
-  height: 150px;
+#logo-image {
+  height: 100%;
+}
+
+.logo {
+  height: 15rem;
 }
 
 .description {
   width: 60%;
+  background-color: #ffffff;
 }
 
 //botão menu
@@ -29,3 +35,21 @@
   align-items: center;
   justify-content: center;
 }
+
+#button-orçamento {
+  padding: 3% 6% !important;
+  background-color: #15768e;
+  border-radius: 8px;
+  text-decoration: none;
+  border: solid 3px #5555;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+#button-orçamento:hover {
+  border: solid 3px #444;
+  background-color: #9ff3f6;
+  color: #444;
+}
+
+// items do menu

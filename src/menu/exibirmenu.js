@@ -25,9 +25,21 @@ function criarMenu() {
      <img src="${image.src}" alt="Logo" id="logo-image">
      </div>
      <style>
+     .menu li a:hover{
+        position: relative;
+     }
     #item-menu:hover {
      color: #89A299 !important;
+      border: 2px solid #3498db;
+    border-radius: 50%;
+    animation: rotateBorder 2s linear infinite;
     }
+
+    @keyframes rotateBorder {
+    to {
+        transform: rotate(360deg);
+    }
+}
      </style>
         <ul class="Menu">
             <li><a href="http://127.0.0.1:5500/Home.html"id="item-menu" style="text-decoration: none; color:#85DBDE;">Home</a></li>
