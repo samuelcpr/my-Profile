@@ -1,0 +1,35 @@
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  padding: 1rem 0 !important;
+  outline: none;
+  font-size: 22px;
+  transition: 0.4s;
+  align-items: centes;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 20px 18px !important;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.container-accordion {
+  padding: 5rem 20% !important;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Divide o contêiner em duas colunas de largura igual */
+  gap: 20px; /* Espaço entre as colunas */
+  padding: 20px; /* Espaço interno do contêiner */
+  white: 100%;
+}
