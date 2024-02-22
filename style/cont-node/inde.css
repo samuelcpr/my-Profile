@@ -1,0 +1,19 @@
+.cont-node {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.imgae-slid {
+  padding: 5rem 0 !important;
+}
+
+.tex-tec {
+  margin: 7rem 0 4rem 0 !important;
+  font-size: 40px;
+  padding: 1rem 5rem !important;
+
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.5); /* Sombra */
+}
