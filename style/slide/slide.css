@@ -1,0 +1,21 @@
+.slide {
+  height: 10rem% !important;
+}
+.image-slide {
+  padding: 2rem 0 !important;
+  display: flex;
+  justify-content: right;
+}
+
+.my-image {
+  filter: grayscale(1);
+  transition: 0.9s;
+  color: #433f3f !important;
+  border: solid 10px #fff;
+  border-radius: 100%;
+}
+
+.my-image:hover {
+  filter: none;
+  transition: 0.9s;
+}
